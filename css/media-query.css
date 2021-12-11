@@ -1,0 +1,390 @@
+@media only screen and (max-width:1200px){
+    .navbar-nav{
+        padding-left: 75px;
+    }
+    .banner-text p{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .banner-text h1{
+        font-size: 74px;
+    }
+    .banner-text h2{
+        font-size: 38px;
+    }
+    .welcome-row li:first-child{
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .welcome-row li:last-child{
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .about-text h3{
+        font-size: 27px;
+    }
+    .about-text p{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .about-text button{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .menu-item img{
+        width: 250px;
+    }
+    .service-row{
+        justify-content: space-between;
+    }
+    .service-item {
+        flex: 0 0 23%;
+        max-width: 23%;
+    }
+    .test-item:nth-child(1) {
+        margin-left: 0;
+    }
+    .test-item:nth-child(2) {
+        margin-left: 35px;
+    }
+    .test-item {
+        width: 48%;
+        padding: 39px 50px 39px;
+    }
+    .newsletter h3{
+        font-size: 30px;
+    }
+    .newsletter p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .banner{
+        background-position: -108px 0;
+    }
+}
+
+@media only screen and (max-width:991px){
+    .social-icons{
+        display: none;
+    }
+    .navbar-nav{
+        padding-left: 0;
+        text-align: center;
+    }
+    .nav-link{
+        margin-bottom: 13px;
+    }
+    .banner {
+        background-position: -170px 0;
+    }
+    .banner-text h1 {
+        font-size: 60px;
+        margin-top: 12px;
+    }
+    .banner-text h2 {
+        font-size: 34px;
+    }
+    .banner-text button{
+        font-size: 15px;
+    }
+    .welcome-row li:first-child {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .welcome-row li:last-child {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .welcome-row p{
+        font-size: 18px;
+    }
+    .welcome-row h2{
+        font-size: 45px;
+    }
+    .welcome{
+        padding-bottom: 65px;
+    }
+    .about-img {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .about-img img{
+        width: 80%;
+    }
+    .about-text {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .menu-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    .menu-item img {
+        width: 300px;
+    }
+    .service-item{
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 25px;
+    }
+    .test-item {
+        width: 100%;
+        padding: 60px 65px 107px;
+        margin-bottom: 50px;
+    }
+    .test-item:nth-child(1),.test-item:nth-child(2){
+        margin-left: 0;
+    }
+    .test-item h3{
+        font-size: 24px;
+    }
+    .newsletter h3{
+        font-size: 28px;
+    }
+    .newsletter p{
+        font-size: 14px;
+    }
+    .footer-item {
+        flex: 0 0 100%;
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: 60px;
+    }
+    .footer-item:nth-child(2), .footer-item:nth-child(3) {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .footer-item img {
+        width: 120px;
+    }
+    .footer-item p{
+        font-size: 15px;
+        margin-top: 18px;
+    }
+    .footer-item i{
+        font-size: 20px;
+        margin: 11px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .banner {
+        background-position: -348px 0;
+    }
+    .banner-text{
+        width: 96%;
+        padding-top: 100px;
+    }
+    .banner-text p {
+        font-size: 14px;
+        line-height: 28px;
+        letter-spacing: 0;
+    }
+    .banner-text h2 {
+        font-size: 28px;
+    }
+    .banner-text h1 {
+        font-size: 60px;
+        margin-top: 12px;
+    }
+    .service-item img{
+        width: 95px;
+    }
+    .service-item h5{
+        font-size: 16px;
+    }
+    .service-item h4{
+        font-size: 18px;
+    }
+    .service-item p{
+        font-size: 13px;
+    }
+    .service-item{
+        flex: 0 0 47%;
+        max-width: 47%;
+    }
+    .test-item{
+        padding: 60px 65px 75px;
+    }
+    .newsletter-email button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 12px;
+    }
+    .newsletter-email input{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:640px){
+
+}
+
+@media only screen and (max-width:576px){
+    .navbar-brand{
+        width: 125px;
+    }
+    .banner {
+        background-position: -426px 0;
+    }
+    .menu-navbar-row{
+        justify-content: space-between;
+    }
+    .menu-navbar-row li{
+        flex: 0 0 30.33%;
+        max-width: 30.33%;
+        text-align: center;
+        margin-right: 0;
+    }
+    .menu-navbar-row li:nth-child(4), .menu-navbar-row li:nth-child(5){
+        flex: 0 0 47%;
+        max-width: 47%;
+        margin-top: 15px;
+    }
+    .service-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 45px;
+    }
+    .service-item img {
+        width: 115px;
+    }
+    .service-item h5 {
+        font-size: 18px;
+    }
+    .service-item h4 {
+        font-size: 21px;
+    }
+    .service-item p {
+        font-size: 16px;
+        width: 65%;
+        margin: 0 auto;
+    }
+    .section-heading{
+        font-size: 37px;
+    }
+    .test-item h3{
+        font-size: 22px;
+    }
+    .test-item p{
+        font-size: 15px;
+    }
+    .newsletter i {
+        font-size: 32px;
+    }
+    .newsletter h3 {
+        font-size: 25px;
+    }
+    .newsletter p {
+        font-size: 13px;
+    }
+    .newsletter-email input{
+        font-size: 13px;
+    }
+    .newsletter-email button{
+        font-size: 13px;
+    }
+    .footer-item img {
+        width: 100px;
+    }
+    .footer-item p {
+        font-size: 14px;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 18px;
+        margin-bottom: 14px;
+    }
+}
+
+@media only screen and (max-width:480px){
+    .banner {
+        background-position: -469px 0;
+    }
+    .banner-text button {
+        font-size: 16px;
+        margin-top: 25px;
+    }
+    .banner-text h1 {
+        font-size: 54px;
+    }
+    .menu-item img {
+        width: 260px;
+    }
+    .menu-button{
+        margin-top: 70px;
+    }
+    .service-item p{
+        width: 80%;
+    }
+    .test-item {
+        padding: 44px 40px 50px;
+    }
+    .footer-row{
+        margin-bottom: 10px;
+    }
+    .sub-footer h4 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:360px){
+    .banner {
+        background-position: -565px 0;
+    }
+    .banner-text p {
+        text-align: left;
+    }
+    .banner-text h2 {
+        font-size: 26px;
+    }
+    .banner-text h1 {
+        font-size: 43px;
+    }
+    .welcome-row p{
+        font-size: 16px;
+    }
+    .welcome-row h2{
+        font-size: 40px;
+    }
+    .test-item {
+        padding: 38px 30px 40px;
+    }
+    .test-item h3 {
+        font-size: 20px;
+    }
+    .test-item i {
+        font-size: 14px;
+    }
+    .test-item p{
+        font-size: 14px;
+    }
+    .newsletter{
+        padding-top: 55px;
+        padding-bottom: 50px;
+    }
+    .newsletter i {
+        font-size: 30px;
+    }
+    .newsletter h3 {
+        font-size: 22px;
+        margin-top: 12px;
+    }
+    .newsletter p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .banner {
+        background-position: -565px 0;
+    }
+}
